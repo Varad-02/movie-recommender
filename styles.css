@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
+.App {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+
+nav {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 1rem;
+  border: 2px solid black;
+  background: #f3f4f6;
+  border-radius: 1rem;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: bold;
+  font-size: large;
+}
+#btn-container {
+  max-width: 600px;
+  margin: auto;
+  border: 2px solid black;
+  background: #f3f4f6;
+  border-radius: 1rem;
+}
+button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 7rem;
+  background-color: crimson;
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+#list-container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 1rem;
+  background: #f3f4f6;
+  border: 2px solid black;
+  border-radius: 1rem;
+}
+#genre {
+  font-size: 1rem;
+}
+.listItem {
+  margin: 1rem;
+  text-align: start;
+}
